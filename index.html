@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Sayangku Darin 🌸</title>
+    <style>
+      body {
+        background-color: #ffe6f0;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("https://www.transparenttextures.com/patterns/flower.png");
+        transition: background-color 0.5s ease;
+      }
+
+      .login-box {
+        background-color: #fff0f5;
+        border: 4px dashed #ff99cc;
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 0 25px rgba(255, 105, 180, 0.3);
+        max-width: 350px;
+        width: 100%;
+      }
+
+      h2 {
+        color: #ff69b4;
+        margin-bottom: 10px;
+      }
+
+      .emoji {
+        font-size: 40px;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ffb6c1;
+        border-radius: 10px;
+        background-color: #fff;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        background-color: #ff69b4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #ff1493;
+      }
+
+      .footer-note {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #cc6699;
+      }
+
+      /* Galeri bagian */
+      .gallery-box {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff0f5;
+        border: 4px dashed #ff99cc;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(255, 105, 180, 0.3);
+        max-width: 600px;
+        width: 100%;
+      }
+
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .image-container img {
+        max-width: 120px;
+        max-height: 120px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+      }
+
+      .input-container {
+        margin-bottom: 20px;
+      }
+
+      .input-container textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ffb6c1;
+        border-radius: 10px;
+        background-color: #fff;
+        font-size: 16px;
+        min-height: 150px;
+        resize: vertical;
+      }
+
+      .input-container input[type="text"] {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ffb6c1;
+        border-radius: 10px;
+        background-color: #fff;
+        font-size: 16px;
+      }
+
+      .submit-button {
+        background-color: #ff69b4;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .submit-button:hover {
+        background-color: #ff1493;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-box">
+      <div class="emoji">🌸😊😭</div>
+      <h2>Hai Darin Khalila 💖</h2>
+      <p>Masukin password nya rinnn 😘</p>
+      <form onsubmit="return loginSweet()">
+        <input
+          type="text"
+          id="username"
+          placeholder="Namamu yang cantik"
+          required
+        /><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password rahasia 💕"
+          required
+        /><br />
+        <input type="submit" value="Login 💌" />
+      </form>
+      <div class="footer-note">*cuma buat Darin yang gemesin 🌷</div>
+    </div>
+
+    <div class="gallery-box">
+      <h2>Galeri Sayangku Darin 🌸</h2>
+
+      <!-- Tempat untuk gambar -->
+      <div class="image-container" id="image-container">
+        <!-- Gambar akan dimuat oleh JavaScript -->
+      </div>
+      <a
+        >banyak yang kosong kan sengaja hehe, bsk kita isi pake foto box ya,fun
+        fact aja nii jujur pas aku bilang nugas tu aku ngerjain ini .
+      </a>
+
+      <!-- Kolom untuk pesan -->
+      <div class="input-container">
+        <textarea
+          id="birthdayMessage"
+          placeholder="Masukkan pesan ulang tahun untuk Darin 💌"
+        >
+Happy birthday sayanggkuu semoga dengan bertambahnya usiamu, semakin sempurna juga imanmu, rajin ibadahnya, selalu diberi kesehatan sama yang mahakuasa, panjang umur, selalu bahagia, berbakti terus sama orangtua, serta segala doa dan cita cita yang kamu inginkan bisa terwujud dan dimudahkan dalam segala urusan. Aamiin
+
+yeyeyy sekarang kamuu ulang tahun sayangg, sekarang kamu semakin dewasa yang dimana kamu pasti tau yang terbaik maupun yang gak buat diri kamuu, harus lebih dewasa dari sebelumnya yaaa, jangan pernah cape buat perbaiki diri jadi lebih baik lagi,
+
+semangat terus buat kejar semua keinginan kamu, kamu pasti bisa sayangg, jangan pernah takut gagal yaa, aku selalu dukung kamu dan support kamu sayang, jangan cape yaa sayangg! semangat terus aku selalu ada disamping kamu, selalu rendah hati, jadi anak baik ya sayangg, selalu sayang sama keluarga yaa, jangan lupa untuk selalu bersyukur yaa byy, semoga apapun yang kamu lakukan hari ini dan hari berikutnya selalu diberi kelancaran serta keselamatan, Aamiin.
+
+maaf gabisa selalu ada disamping kamu, walaupun terhalang jarak, aku selalu berdoa agar kamu dalam lindungan Allah, semoga aku bisa nemenin kamu selama mungkin
+        </textarea>
+
+        <h1>kamu pikir cuma segini ya engga dong,liat ya besok pas ketemu</h1>
+      </div>
+
+      <button class="submit-button" onclick="displayMessage()">
+        Kirim Pesan 💬
+      </button>
+
+      <div class="video-container" id="video-container">
+        <h3>Video Spesial untuk Darin 🎥💕</h3>
+
+        <video controls width="100%">
+          <source src="darin1.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung video.
+        </video>
+
+        <br /><br />
+
+        <video controls width="100%">
+          <source src="darin2.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung video.
+        </video>
+
+        <br /><br />
+
+        <video controls width="100%">
+          <source src="darin3.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung video.
+        </video>
+
+        <video controls width="100%">
+          <source src="darin4.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung video.
+        </video>
+
+        <video controls width="100%">
+          <source src="darin5.mp4" type="video/mp4" />
+          Browser kamu tidak mendukung video.
+        </video>
+      </div>
+
+      <div class="footer-note">* 🌷🌷🌷🌷🌷🌷</div>
+    </div>
+
+    <script>
+      function loginSweet() {
+        const user = document.getElementById("username").value.toLowerCase();
+        const pass = document.getElementById("password").value;
+
+        if (user.includes("darin") && pass === "sayang123") {
+          // Menyembunyikan form login dan menampilkan galeri
+          document.querySelector(".login-box").style.display = "none";
+          document.querySelector(".gallery-box").style.display = "flex";
+
+          // Mengubah latar belakang untuk nuansa baru
+          document.body.style.backgroundColor = "#ffffff";
+
+          // Memuat gambar-gambar
+          loadImages();
+
+          alert("Yayyy! Selamat datang cintaku Darin! 💖🌸🥰");
+          return false; // Tidak melanjutkan ke halaman lain
+        } else {
+          alert("Eh salah sayang 😢 Coba lagi yaa 💔");
+          return false;
+        }
+      }
+
+      // Fungsi untuk memuat 154 gambar
+      function loadImages() {
+        const imageContainer = document.getElementById("image-container");
+        for (let i = 1; i <= 130; i++) {
+          const imgElement = document.createElement("img");
+          imgElement.src = `image${i}.jpg`; // Ganti dengan path gambar yang sesuai
+          imgElement.alt = `Foto ${i}`;
+          imageContainer.appendChild(imgElement);
+        }
+      }
+
+      function displayMessage() {
+        const userMessage = document.getElementById("birthdayMessage").value;
+
+        if (userMessage) {
+          alert("Pesan terkirim! 💖 " + userMessage);
+        } else {
+          alert("Silakan masukkan pesan terlebih dahulu!");
+        }
+      }
+    </script>
+  </body>
+</html>
